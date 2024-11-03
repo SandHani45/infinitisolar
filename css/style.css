@@ -12,7 +12,9 @@
 .fw-bold {
     font-weight: 700 !important;
 }
-
+.font-up{
+    font-size: 28px;
+}
 .fw-black {
     font-weight: 900 !important;
 }
@@ -215,6 +217,20 @@
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
+
+.page-epc {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/epc.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-om {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/om-cover.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-ongrid {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/on-grid-cover.jpg) center center no-repeat;
+    background-size: cover;
+}
+
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
